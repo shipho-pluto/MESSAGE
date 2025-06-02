@@ -1,0 +1,21 @@
+version: "3"
+
+tasks:
+  postgres_up:
+    aliases:
+      - up
+    desc: "Update db"
+    cmds:
+      - goose postgres postgresql://postgres:secret@localhost:5432/postgres up
+  postgres_down:
+    aliases:
+      - down
+    desc: "Downgrade db"
+    cmds:
+      - goose postgres postgresql://postgres:secret@localhost:5432/postgres down
+  migration:
+    aliases:
+      - mig
+    desc: "Migrate db"
+    cmds:
+      - go run ./internal/lib/migrator --storage-path=./storage/crud.db --migration-path=./config/migrations

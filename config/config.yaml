@@ -1,0 +1,16 @@
+env: "local"
+app_secret: "secret"
+
+storage:
+  path: "./storage/crud.db"  # Отдельное хранилище для сообщений
+
+grpc:
+  server:
+    port: 44045  # Порт, на котором работает message-сервис
+    timeout: 1h   # Таймаут для серверных операций
+
+clients:
+  crud:
+    addr: "localhost:44045"  # Для внутреннего использования (сам себя)
+    timeout: 3s
+    retries_count: 3
