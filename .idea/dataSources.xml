@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
     <data-source source="LOCAL" name="messages" uuid="8b704e92-61af-4bce-8820-16f968102550">
-      <driver-ref>sqlite.xerial</driver-ref>
+      <driver-ref>61a44d18-272d-4027-b866-ef84b9ec5f96</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\timot\GolandProjects\Local\Learning\message\storage\crud.db</jdbc-url>
