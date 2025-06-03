@@ -2,9 +2,9 @@ package grpc
 
 import (
 	"fmt"
+	"github.com/shipho-pluto/MESSAGE/internal/grpc/crud"
 	"google.golang.org/grpc"
 	"log/slog"
-	"message/internal/grpc/crud"
 	"net"
 )
 

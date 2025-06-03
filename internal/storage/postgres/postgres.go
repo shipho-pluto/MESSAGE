@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 	_ "github.com/lib/pq"
-	"message/internal/domain/models"
-	"message/internal/storage"
+	"github.com/shipho-pluto/MESSAGE/internal/domain/models"
+	"github.com/shipho-pluto/MESSAGE/internal/storage"
 	"os"
 
 	_ "github.com/golang-migrate/migrate/v4/database/sqlite3"

@@ -1,11 +1,11 @@
 package app
 
 import (
+	crudApp "github.com/shipho-pluto/MESSAGE/internal/app/crud"
+	grpcApp "github.com/shipho-pluto/MESSAGE/internal/app/grpc"
+	"github.com/shipho-pluto/MESSAGE/internal/clients/service"
+	"github.com/shipho-pluto/MESSAGE/internal/storage/postgres"
 	"log/slog"
-	crudApp "message/internal/app/crud"
-	grpcApp "message/internal/app/grpc"
-	"message/internal/clients/service"
-	"message/internal/storage/postgres"
 )
 
 type App struct {

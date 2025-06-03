@@ -1,10 +1,10 @@
 package main
 
 import (
-	"message/internal/app"
-	client "message/internal/clients"
-	"message/internal/config"
-	log "message/internal/lib/logger"
+	"github.com/shipho-pluto/MESSAGE/internal/app"
+	client "github.com/shipho-pluto/MESSAGE/internal/clients"
+	"github.com/shipho-pluto/MESSAGE/internal/config"
+	log "github.com/shipho-pluto/MESSAGE/internal/lib/logger"
 
 	"context"
 	"errors"

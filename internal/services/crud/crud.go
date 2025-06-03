@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"github.com/shipho-pluto/MESSAGE/internal/domain/models"
+	"github.com/shipho-pluto/MESSAGE/internal/storage"
 	"log/slog"
-	"message/internal/domain/models"
-	"message/internal/storage"
 )
 
 type CRUD struct {

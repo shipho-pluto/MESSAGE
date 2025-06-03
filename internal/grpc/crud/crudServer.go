@@ -3,13 +3,13 @@ package crud
 import (
 	"context"
 	"errors"
+	"github.com/shipho-pluto/MESSAGE/internal/domain/models"
+	jwtVal "github.com/shipho-pluto/MESSAGE/internal/lib/jwt"
+	"github.com/shipho-pluto/MESSAGE/internal/storage"
 	crudv1 "github.com/shipho-pluto/PROTO/gen/go/crud"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-	"message/internal/domain/models"
-	jwtVal "message/internal/lib/jwt"
-	"message/internal/storage"
 )
 
 type CRUD interface {

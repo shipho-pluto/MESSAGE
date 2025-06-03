@@ -1,8 +1,8 @@
 package crud
 
 import (
+	"github.com/shipho-pluto/MESSAGE/internal/services/crud"
 	"log/slog"
-	"message/internal/services/crud"
 )
 
 func New(log *slog.Logger, cruder crud.MessageCRUDer) *crud.CRUD {
