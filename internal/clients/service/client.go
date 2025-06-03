@@ -5,12 +5,12 @@ import (
 	"fmt"
 	grpclog "github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/logging"
 	grpcretry "github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/retry"
+	"github.com/shipho-pluto/MESSAGE/internal/domain/models"
 	crudv1 "github.com/shipho-pluto/PROTO/gen/go/crud"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials/insecure"
 	"log/slog"
-	"message/internal/domain/models"
 	"time"
 )
 
