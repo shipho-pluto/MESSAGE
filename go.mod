@@ -1,4 +1,4 @@
-module github.com/shipho-pluto/MESSAGE
+module message
 
 go 1.24
 
